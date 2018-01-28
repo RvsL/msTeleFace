@@ -1,3 +1,6 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
 greet_bot = BotHandler('510077523:AAEI9T4ZSg-Fupxyv--2ik-sER3opDxoufk')  
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')  
 now = datetime.datetime.now()
