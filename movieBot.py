@@ -49,7 +49,7 @@ def main():
     hour = now.hour
 
     while True:
-        greet_bot.get_updates(new_offset)
+        greet_bot.get_updates()
 
         last_update = greet_bot.get_last_update()
         
