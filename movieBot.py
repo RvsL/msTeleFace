@@ -55,9 +55,9 @@ def main():
         
         if len(last_update) > 0:
 
-            print last_update
-            print "offset = {}".format(new_offset)
-            print 'today = {}'.format(today)
+#           print last_update
+#           print "offset = {}".format(new_offset)
+#           print 'today = {}'.format(today)
             
             last_update_id = last_update['update_id']
             last_chat_text = last_update['message']['text']
