@@ -28,7 +28,7 @@ class BotHandler:
 
     def get_last_update(self):
         get_result = self.get_updates()
-        print get_result
+        #print get_result
 
         if len(get_result) > 0:
             last_update = get_result[-1]
@@ -55,6 +55,7 @@ def main():
         
         if len(last_update) > 0:
 
+            print last_update
             last_update_id = last_update['update_id']
             last_chat_text = last_update['message']['text']
             last_chat_id = last_update['message']['chat']['id']
